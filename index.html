@@ -9,30 +9,36 @@
 </head>
 <body>
     <div class="container">
+        <div class="pass">
         <h1>Password Generator</h1>
         <h2 class="output">password</h2>
         <div class="selection">
             <form action="#">
                 <div class="character-selection">
-                    <label for="charAmountNumber">Number of Characters</label>
+                    <label for="charAmountNumber" style="margin-right: 1rem;">Number of Characters</label>
                     <input type="range" min="1" max="50" value="10" id="charAmountRange">
                     <input type="number" min="1" max="50" value="10" id="charAmountNumber">
                 </div>
-                <div class="uppercase">
+                <div class="case">
                     <label for="includeUppercase">Include Uppercase</label>
+                    <span></span>
                     <input type="checkbox" id="includeUppercase">
                 </div>
-                <div class="lowercase">
+                <div class="case">
                     <label for="includeLowercase">Include Uppercase</label>
+                    <span></span>   
                     <input type="checkbox" id="includeLowercase">
                 </div>
-                <div class="symbols">
+                <div class="case">
+                 
                     <label for="includeSymbols">Include Uppercase</label>
+                    <span></span>
                     <input type="checkbox" id="includeSymbols">
                 </div>
                 <button type="submit">Generate password</button>
             </form>
         </div>
+    </div>
     </div>
 </body>
 </html>
