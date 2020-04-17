@@ -57,7 +57,17 @@ button{
    width: 100%;
    padding:.5rem;
    margin-top: 2rem;
+   background: transparent;
+   border-radius: 1rem;
+   border: 1px solid orangered;
+   outline: none;
+   cursor: pointer;
+   color: white;
 }
+ button:hover{
+     background-color: rgba(32, 178, 171, 0.397);
+     color:#000;
+ }
 .character-selection{
   display: flex;
   justify-content: center;
