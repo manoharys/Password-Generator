@@ -5,3 +5,4 @@ So if you want to safeguard your personal info and assets, creating secure passw
 Password Generator can help. Impossible-to-crack passwords are complex with multiple types of characters (numbers, letters, and symbols).
 Making your passwords different for each website or app also helps defend against hacking.
 
+<a href="https://manoharys.github.io/Password-Generator/" > click here to generate password</a>
